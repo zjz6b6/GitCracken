@@ -1,5 +1,7 @@
 # GitCracken
-Crack GitKraken
+GitKraken utils for non-commercial use
+
+Working on `GNU/Linux` (without `snap`), `Windows` and `macOS`.
 
 Author: KillWolfVlad at [GitKraken-AUR](https://github.com/KillWolfVlad/GitKraken-AUR)
 
