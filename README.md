@@ -30,3 +30,13 @@ Add this content to your `hosts` file:
 
 Check [GitCracken/README.md](https://github.com/5cr1pt/GitCracken/blob/master/GitCracken/README.md) for more usage information.
 
+test:
+git clone https://github.com/5cr1pt/GitCracken.git
+cd GitCracken/GitCracken
+rm yarn.lock
+yarn install
+yarn build
+# windows gitbash
+node dist/bin/gitcracken.js patcher --asar ~/AppData/Local/gitkraken/app-6.5.0/resources/app.asar
+# mac 
+node dist/bin/gitcracken.js patcher --asar 你的gitkraken的目录/resources/app.asar
